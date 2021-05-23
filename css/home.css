@@ -383,7 +383,7 @@ color: #a237e0;
 
 
 /* MOBILE MENU */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
 
   #nav-container {
     -webkit-box-orient: vertical;
@@ -400,8 +400,13 @@ color: #a237e0;
     color: white;
     cursor: pointer;
     border-radius: 8px;
+    margin-right: 10px;
   }
+.strt{
+  background-color: white!important;
+  color: black !important;
 
+}
   .nav-ul {
     display: block;
     -webkit-box-orient: vertical;
@@ -428,7 +433,7 @@ color: #a237e0;
 /* END MOBILE MENU */
 
 /* DESKTOP MENU */
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 769px) {
 
   #nav-menu-button {
     display: none;
