@@ -306,12 +306,14 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
 
 }
 
@@ -372,11 +374,12 @@ body {
 }
 
 .nav-link:hover {
-  color: #952599;
+  color: #181618;
+  text-decoration: none!important;
 }
 
 .active-link {
-color: #a237e0;
+color: #201e20;
 }
 
 /* END NAVIGATION */
@@ -396,10 +399,10 @@ color: #a237e0;
 
   #nav-menu-button {
     padding: 1rem;
-    background-color: #a237e0;
+    background-color: #000000;
     color: white;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: none;
     margin-right: 10px;
   }
 .strt{
@@ -458,8 +461,8 @@ color: #a237e0;
 padding: 14px 24px;
 width: 132px;
 text-align: center;
-background: #7238CD;
-border-radius: 6px;
+background: black;
+border-radius: none;
 font-family: Inter;
 font-style: normal;
 font-weight: 600;

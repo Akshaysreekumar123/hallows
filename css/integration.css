@@ -1,0 +1,79 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+
+.integ_head{
+
+    font-family: 'Staatliches', 'sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 119%;
+    /* or 54px */
+    
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+.container_f{
+ 
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.integ_body{
+    margin-top: -5%;
+    font-size: 17px;
+line-height: 160%;
+/* or 32px */
+font-family: Inter;
+letter-spacing: -0.03em;
+text-align: left;
+color: rgba(0, 0, 0, 0.8);
+max-width: 400px;
+}
+
+.buttons123{
+    text-align: left;
+}
+.See_integ{
+    padding:18px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    color:white;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width:175px;
+    height: 45px;
+    float: left!important;
+
+}
+.Api_integ{
+    padding:18px;
+    margin-left: 10px;
+    box-shadow: none;
+    border: none!important;
+    cursor: pointer;
+    color:#181820;
+    background: #EDEDED;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left!important;
+    max-width:175px;
+    height: 45px;
+}
+.circlew{
+    max-width: 410px;
+    width: 100%;
+    height: auto;
+    margin-top: 18%;
+    float: right;
+    
+}
