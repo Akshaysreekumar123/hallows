@@ -29,7 +29,7 @@ body{
     font-size: 17px;
 line-height: 160%;
 /* or 32px */
-font-family: Inter;
+font-family: Inter!important;
 letter-spacing: -0.03em;
 text-align: left;
 color: rgba(0, 0, 0, 0.8);
@@ -261,7 +261,6 @@ font-size: 20px;
 @media only screen and (min-width: 1250px) {
 .circlew{
     padding-left: 20%!important;
-
 }
 }
 
